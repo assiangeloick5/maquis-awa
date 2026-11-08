@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquis Chez Awa | Formulaire de réservation</title>
+</head>
+
+<body>
+    <h1>Formulaire de réservation</h1>
+    <form>
+        <p>
+            <label for="nom-client">Nom du client</label>
+            <input type="text" name="nom-client" id="nom-client" placeholder="exemple : Loick" required>
+        </p>
+        <p>
+            <label for="email-client">Email du client</label>
+            <input type="email" name="email-client" id="email-client" placeholder="exemple : loick@gmail.com" required>
+        </p>
+        <p>
+            <label for="personnes">Nombre de personnes</label>
+            <input type="number" name="personnes" id="personnes" placeholder="exemple : 5" required>
+        </p>
+        <p>
+            <label for="message">Un message</label>
+            <textarea name="message" id="message" rows="4"
+                placeholder="exemple : Êtes vous ouvert les dimanches ?"></textarea>
+        </p>
+        <p>
+            <button type="submit">Réserver</button>
+        </p>
+    </form>
+</body>
+
+</html>
